@@ -6,3 +6,36 @@ body {
   margin: 0;
   padding: 0;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  width: 900px;
+  margin: 0 auto;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
+
+.list-item {
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid lightgrey;
+  border-radius: 10px;
+
+  &__link {
+    display: block;
+    height: 100%;
+  }
+}
